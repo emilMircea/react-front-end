@@ -18,6 +18,7 @@ import './New.css';
     return(
       <div className="container">
         <div className="row signIn-wrap">
+            <a className='logoLink' href="http://placeholder.com"><img src="http://via.placeholder.com/140x100" alt='logo'/></a>
             <form className='user-registration-form' onSubmit={this.submitForm}>
               <div className="form-group">
                 <label htmlFor="emailInput">Email</label>
@@ -29,6 +30,7 @@ import './New.css';
               </div>
               <button className="btn btn-primary logInBtn" type='submit'>Log In</button>
             </form>
+            <a href="">Don't have an account? Sign up.</a>
         </div>
       </div>
     )

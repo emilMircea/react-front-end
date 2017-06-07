@@ -10,7 +10,6 @@ import { inject, observer } from 'mobx-react';
   removeContact = (e) => {
     e.preventDefault();
     this.props.contacts.remove(this.props.id);
-
   }
 
   render() {
