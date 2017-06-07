@@ -1,0 +1,32 @@
+nav.navbar.fixed-top {
+  background: #e54f26;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.send-right {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.user-email-link {
+  margin-right: 1rem;
+}
+
+.sign-out-link {
+  margin-right: 1rem;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
