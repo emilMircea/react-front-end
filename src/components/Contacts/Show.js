@@ -1,6 +1,7 @@
-import React from 'react';
-// import data from './data';
-import { inject, observer } from 'mobx-react';
+import React from 'react'
+import { inject, observer } from 'mobx-react'
+import './Show.css'
+
 @inject(['contacts'])
 @observer class Show extends React.Component {
   componentWillMount() {

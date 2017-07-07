@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 // import logo from './logo.svg';
 import './Collection.css';
-// import Spinner from  './../Spinner/Spinner';
-import Contact from './Contact';
-import Form from './Form';
+import Spinner from  './../Spinner/Spinner'
+import Contact from './Contact'
+import Form from './Form'
 
-import { inject, observer } from 'mobx-react';
+import { inject, observer } from 'mobx-react'
 
 @inject(['contacts'])
 @observer class Layout extends Component {

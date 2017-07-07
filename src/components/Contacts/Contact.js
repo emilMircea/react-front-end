@@ -14,7 +14,7 @@ import { inject, observer } from 'mobx-react';
 
   render() {
     return(
-      <div id='contact-wrap' className="col-sm-4">
+      <div className="col-sm-4 contact-wrap">
         <Link to={`/contacts/${this.props.id}`}>
           <h3>
             { this.props.name }
