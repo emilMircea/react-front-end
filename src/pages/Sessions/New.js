@@ -21,7 +21,7 @@ import { Link } from 'react-router'
     return(
       <Page.Auth title='Sign In' extras={extras}>
         {/* <a className='logoLink' href="http://placeholder.com"><img src="http://via.placeholder.com/140x100" alt='logo'/></a> */}
-        <form className='user-registration-form' onSubmit={this.submitForm}>
+        <form className='user-registration-form animated fadeIn' onSubmit={this.submitForm}>
           <div className="form-group">
             <label htmlFor="emailInput">Email</label>
             <input ref={(input) => this.email = input} type="email" className="form-control" id="emailInput" placeholder="email" />

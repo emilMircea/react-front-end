@@ -6,6 +6,7 @@ import { Router, browserHistory } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 
+import 'animate.css/animate.css';
 import './index.css';
 
 
